@@ -1,0 +1,16 @@
+import comp from "/Users/nana/Documents/web.chill.games/ss-docs/docs/.vuepress/.temp/pages/i-studio/start.html.vue"
+const data = JSON.parse("{\"path\":\"/i-studio/start.html\",\"title\":\"Я-студия\",\"lang\":\"ru_RU\",\"frontmatter\":{\"lang\":\"ru_RU\",\"title\":\"Я-студия\",\"description\":\"Для мастеров\"},\"headers\":[{\"level\":2,\"title\":\"Создать Я-студию\",\"slug\":\"создать-я-студию\",\"link\":\"#создать-я-студию\",\"children\":[]},{\"level\":2,\"title\":\"Редактировать Я-студию\",\"slug\":\"редактировать-я-студию\",\"link\":\"#редактировать-я-студию\",\"children\":[]},{\"level\":2,\"title\":\"Удалить Я-студию\",\"slug\":\"удалить-я-студию\",\"link\":\"#удалить-я-студию\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"i-studio/start.md\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

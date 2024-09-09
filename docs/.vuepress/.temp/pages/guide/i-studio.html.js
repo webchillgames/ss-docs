@@ -1,0 +1,3 @@
+import comp from "/Users/nana/Documents/web.chill.games/ss-docs/docs/.vuepress/.temp/pages/guide/i-studio.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/i-studio.html\",\"title\":\"Я-студия\",\"lang\":\"ru_RU\",\"frontmatter\":{\"lang\":\"ru_RU\",\"title\":\"Я-студия\"},\"headers\":[{\"level\":2,\"title\":\"Создать Я-студию\",\"slug\":\"создать-я-студию\",\"link\":\"#создать-я-студию\",\"children\":[]},{\"level\":2,\"title\":\"Редактировать Я-студию\",\"slug\":\"редактировать-я-студию\",\"link\":\"#редактировать-я-студию\",\"children\":[]},{\"level\":2,\"title\":\"Удалить Я-студию\",\"slug\":\"удалить-я-студию\",\"link\":\"#удалить-я-студию\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"guide/i-studio.md\"}")
+export { comp, data }
