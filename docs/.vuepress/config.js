@@ -4,7 +4,7 @@ import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
   lang: "ru-RU",
-
+  base: "ss-docs",
   title: "Эврика",
   description: "Документация",
 
