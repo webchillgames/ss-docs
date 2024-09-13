@@ -15,6 +15,10 @@ actions:
     link: /guide/teacher-journal.md
     type: secondary
 
+  - text: Тест кейсы
+    link: /tests/test-cases.md
+    type: secondary
+
 features:
   - title: Инструкции
     details: Подробные объяснения шагов для достижения результатов.

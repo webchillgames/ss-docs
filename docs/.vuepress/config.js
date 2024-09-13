@@ -9,11 +9,12 @@ export default defineUserConfig({
   description: "Документация",
 
   theme: defaultTheme({
-    navbar: ["/", "/guide/introduction"],
+    navbar: ["/", "/guide/introduction", '/tests/test-cases'],
     sidebar: [
       "/guide/introduction.md",
       "/guide/i-studio.md",
       "/guide/teacher-journal.md",
+      "/tests/test-cases.md",
     ],
   }),
 
