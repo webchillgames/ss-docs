@@ -149,58 +149,130 @@
 </tr>
 </tbody>
 </table>
-<h2 id="я-студия" tabindex="-1"><a class="header-anchor" href="#я-студия"><span>Я-студия</span></a></h2>
-<table>
-<thead>
-<tr>
-<th>Студия</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Создание студии</td>
-</tr>
-<tr>
-<td>Редактирование студии</td>
-</tr>
-<tr>
-<td>Удаление студии</td>
-</tr>
-<tr>
-<td>Реакция &quot;Списка студий&quot; на изменения</td>
-</tr>
-<tr>
-<td>Создание события</td>
-</tr>
-<tr>
-<td>Редактирование события</td>
-</tr>
-<tr>
-<td>Удаление события</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Таблица студии</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Внесение данных в Таблицу студии</td>
-</tr>
-<tr>
-<td>Реакция Таблицы на добавление/удаление событий</td>
-</tr>
-</tbody>
-</table>
 <h2 id="мастерские" tabindex="-1"><a class="header-anchor" href="#мастерские"><span>Мастерские</span></a></h2>
-<p>| Создание мастерской    |
-| Редактирование мастерской   |
-| Удаление мастерской    |
-| Журнал мастерской    |</p>
-<!-- [страницу создания студии](https://new-school.geekbase.ru/iamstudio/studio/create) -->
+<p>Стартовые страницы для тестов:</p>
+<ul>
+<li><a href="https://new-school.geekbase.ru/workshops-master/create" target="_blank" rel="noopener noreferrer">создание мастерской</a></li>
+<li><a href="https://new-school.geekbase.ru/workshops-master-list" target="_blank" rel="noopener noreferrer">список мастерских для мастера</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Тест</th>
+<th>Готовность</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Создание мастерской</td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Редактирование мастерской</td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Удаление мастерской</td>
+<td><input type="checkbox" /></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Для тестов ниже нужно найти Мастерскую в <a href="https://new-school.geekbase.ru/workshops-master-list" target="_blank" rel="noopener noreferrer">списке мастерских для мастера</a> - открыть её и долистать до раздела &quot;Дни мастерской с темами&quot;</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Тест</th>
+<th>Готовность</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Создание темы</td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Редактирование темы</td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Удаление темы</td>
+<td><input type="checkbox" /></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Для тестов ниже редактируется Мастерская и оцениваются результаты на страницах чьи ссылки указаны в столбце &quot;ссылки&quot;</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Тест</th>
+<th>Ссылка</th>
+<th>Готовность</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Выставить мастерской &quot;Видимость мастерской&quot; = Опубликована</td>
+<td><a href="https://new-school.geekbase.ru/workshops/published/booking" target="_blank" rel="noopener noreferrer">список мастерских для бронирования</a></td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Выставить мастерской &quot;Видимость мастерской&quot; = Не опубликована</td>
+<td><a href="https://new-school.geekbase.ru/workshops/published/booking" target="_blank" rel="noopener noreferrer">список мастерских для бронирования</a></td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Выставить мастерской &quot;Позволить присоединиться после даты старта&quot; = Позволить</td>
+<td><a href="https://new-school.geekbase.ru/workshops/published/booking" target="_blank" rel="noopener noreferrer">список мастерских для бронирования</a></td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Выставить мастерской &quot;Позволить присоединиться после даты старта&quot; = Запретить</td>
+<td><a href="https://new-school.geekbase.ru/workshops/published/booking" target="_blank" rel="noopener noreferrer">список мастерских для бронирования</a></td>
+<td><input type="checkbox" /></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Для тестов ниже редактируется Журнал Мастерской и оцениваются результаты на страницах чьи ссылки указаны в столбце &quot;ссылки&quot;.</p>
+</blockquote>
+<blockquote>
+<p>Перейти в Журнал можно со страницы Мастерской нажав на &quot;Перейти к журналу&quot;</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Тест</th>
+<th>Ссылка</th>
+<th>Готовность</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Добавить комментарий</td>
+<td><a href="https://new-school.geekbase.ru/workshop-child-report" target="_blank" rel="noopener noreferrer">Отчёт мастерские ребёнка</a></td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Добавить посещение</td>
+<td><a href="https://new-school.geekbase.ru/workshop-child-report" target="_blank" rel="noopener noreferrer">Отчёт мастерские ребёнка</a></td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Добавить итоговый результат</td>
+<td><a href="https://new-school.geekbase.ru/workshop-child-report" target="_blank" rel="noopener noreferrer">Отчёт мастерские ребёнка</a></td>
+<td><input type="checkbox" /></td>
+</tr>
+<tr>
+<td>Добавить итоговый комментарий</td>
+<td><a href="https://new-school.geekbase.ru/workshop-child-report" target="_blank" rel="noopener noreferrer">Отчёт мастерские ребёнка</a></td>
+<td><input type="checkbox" /></td>
+</tr>
+</tbody>
+</table>
 <h2 id="отчеты" tabindex="-1"><a class="header-anchor" href="#отчеты"><span>Отчёты</span></a></h2>
 <table>
 <thead>
@@ -274,6 +346,52 @@
 </tr>
 <tr>
 <td>Диктанты</td>
+</tr>
+</tbody>
+</table>
+<h2 id="я-студия" tabindex="-1"><a class="header-anchor" href="#я-студия"><span>Я-студия</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>Студия</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Создание студии</td>
+</tr>
+<tr>
+<td>Редактирование студии</td>
+</tr>
+<tr>
+<td>Удаление студии</td>
+</tr>
+<tr>
+<td>Реакция &quot;Списка студий&quot; на изменения</td>
+</tr>
+<tr>
+<td>Создание события</td>
+</tr>
+<tr>
+<td>Редактирование события</td>
+</tr>
+<tr>
+<td>Удаление события</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Таблица студии</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Внесение данных в Таблицу студии</td>
+</tr>
+<tr>
+<td>Реакция Таблицы на добавление/удаление событий</td>
 </tr>
 </tbody>
 </table>
