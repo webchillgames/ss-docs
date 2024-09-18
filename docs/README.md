@@ -7,20 +7,12 @@ actions:
     link:  /guide/introduction.md
     type: primary
 
-  - text: Я-студия
-    link:  /guide/i-studio.md
-    type: secondary
-
-  - text: Журнал учителя
-    link: /guide/teacher-journal.md
-    type: secondary
-
   - text: Тест кейсы
     link: /tests/test-cases.md
     type: secondary
 
 features:
-  - title: Инструкции
+  - title: Руководство
     details: Подробные объяснения шагов для достижения результатов.
   - title: Тест кейсы
     details: Для тестирования системы в будущем.

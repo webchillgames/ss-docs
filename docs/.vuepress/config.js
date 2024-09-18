@@ -12,8 +12,10 @@ export default defineUserConfig({
     navbar: ["/", "/guide/introduction", '/tests/test-cases'],
     sidebar: [
       "/guide/introduction.md",
-      "/guide/i-studio.md",
       "/guide/teacher-journal.md",
+      "/guide/workshop.md",
+      "/guide/i-studio.md",
+      "/guide/reports.md",
       "/tests/test-cases.md",
     ],
   }),
